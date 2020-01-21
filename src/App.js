@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
-function App() {
+import Navbar from "./components/Navbar";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello react</h1>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <h1>헬로우 리액트</h1>
+      <h2>헬로우 리액트</h2>
+    </>
   );
-}
+};
 
 export default App;
